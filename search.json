@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Velocidade de onda em uma corda vibrante",
+    "section": "",
+    "text": "Ondas estacionárias resultam da interferência de duas ondas progressivas idênticas (mesmo comprimento de onda, velocidade e amplitude) que se propagam em sentidos opostos no mesmo meio. Um exemplo comum de como essas condições são satisfeitas é em uma corda esticada: ondas geradas por uma fonte vibrante em uma extremidade são refletidas na outra extremidade, e essa onda refletida, viajando no sentido contrário, interfere com as ondas que ainda estão se aproximando, produzindo o padrão de onda estacionária (Halliday; Resnick; Walker, 2016).\nSob condições específicas, uma corda esticada e fixa em ambas as extremidades exibe modos naturais de vibração característicos, nos quais as extremidades devem ser sempre nós (pontos de amplitude zero). A corda pode vibrar em diferentes números de segmentos: no modo fundamental (um único segmento), o comprimento da corda (\\(L\\)) é igual a metade do comprimento de onda (\\(\\lambda / 2\\)); no próximo modo (dois segmentos, com um nó central), \\(L\\) é igual a \\(\\lambda\\); e assim sucessivamente. De forma geral, o comprimento da corda deve sempre ser um múltiplo inteiro de meio comprimento de onda (\\(L = n \\lambda/2\\), onde \\(n = 1, 2, 3, \\dots\\)), o que define os comprimentos de onda permitidos para as ondas estacionárias na corda. A Figura 1 mostra os 3 primeiros modos naturais para uma corda vibrante de comprimento \\(L\\).\n\n\n\nFigura 1\n\n\n\n\nFrequências naturais em uma corda vibrante\n\n\n\n\nFonte: Labfis (2026)\n\n\n\n\nPara qualquer onda com comprimento de onda \\(\\lambda\\) e frequência \\(f\\), a velocidade de propagação da onda, \\(v\\), é dada por:\n\\[\n  v = \\lambda f\n\\tag{1}\\]\nPor outro lado, se a corda tem massa \\(m\\) e comprimento total \\(l\\) e está fujeita a uma força de tensão \\(F\\), a velocidade \\(v\\) de propagação da onda também pode ser determinada pela relação:\n\\[\n  v = \\sqrt{\\dfrac{F}{\\mu}}\n\\tag{2}\\]\nem que \\(\\mu = \\dfrac{m}{l}\\) é a massa específica linear da corda.\nNeste experimento, ondas estacionárias são geradas em uma corda esticada,por meio de vibrações de um gerador de ondas senoidais acionado eletricamente. A disposição do aparelho é mostrada na Figura 2. A tensão na corda é igual ao peso das massa suspensa sobre a polia."
+  },
+  {
+    "objectID": "index.html#introdução",
+    "href": "index.html#introdução",
+    "title": "Velocidade de onda em uma corda vibrante",
+    "section": "",
+    "text": "Ondas estacionárias resultam da interferência de duas ondas progressivas idênticas (mesmo comprimento de onda, velocidade e amplitude) que se propagam em sentidos opostos no mesmo meio. Um exemplo comum de como essas condições são satisfeitas é em uma corda esticada: ondas geradas por uma fonte vibrante em uma extremidade são refletidas na outra extremidade, e essa onda refletida, viajando no sentido contrário, interfere com as ondas que ainda estão se aproximando, produzindo o padrão de onda estacionária (Halliday; Resnick; Walker, 2016).\nSob condições específicas, uma corda esticada e fixa em ambas as extremidades exibe modos naturais de vibração característicos, nos quais as extremidades devem ser sempre nós (pontos de amplitude zero). A corda pode vibrar em diferentes números de segmentos: no modo fundamental (um único segmento), o comprimento da corda (\\(L\\)) é igual a metade do comprimento de onda (\\(\\lambda / 2\\)); no próximo modo (dois segmentos, com um nó central), \\(L\\) é igual a \\(\\lambda\\); e assim sucessivamente. De forma geral, o comprimento da corda deve sempre ser um múltiplo inteiro de meio comprimento de onda (\\(L = n \\lambda/2\\), onde \\(n = 1, 2, 3, \\dots\\)), o que define os comprimentos de onda permitidos para as ondas estacionárias na corda. A Figura 1 mostra os 3 primeiros modos naturais para uma corda vibrante de comprimento \\(L\\).\n\n\n\nFigura 1\n\n\n\n\nFrequências naturais em uma corda vibrante\n\n\n\n\nFonte: Labfis (2026)\n\n\n\n\nPara qualquer onda com comprimento de onda \\(\\lambda\\) e frequência \\(f\\), a velocidade de propagação da onda, \\(v\\), é dada por:\n\\[\n  v = \\lambda f\n\\tag{1}\\]\nPor outro lado, se a corda tem massa \\(m\\) e comprimento total \\(l\\) e está fujeita a uma força de tensão \\(F\\), a velocidade \\(v\\) de propagação da onda também pode ser determinada pela relação:\n\\[\n  v = \\sqrt{\\dfrac{F}{\\mu}}\n\\tag{2}\\]\nem que \\(\\mu = \\dfrac{m}{l}\\) é a massa específica linear da corda.\nNeste experimento, ondas estacionárias são geradas em uma corda esticada,por meio de vibrações de um gerador de ondas senoidais acionado eletricamente. A disposição do aparelho é mostrada na Figura 2. A tensão na corda é igual ao peso das massa suspensa sobre a polia."
+  },
+  {
+    "objectID": "index.html#objetivos",
+    "href": "index.html#objetivos",
+    "title": "Velocidade de onda em uma corda vibrante",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nCompreender a relação entre a frequência, o comprimento da corda, a tensão e os diferentes modos de vibração (harmônicos) das ondas estacionárias;\nDeterminar a velocidade de propagação de uma onda estacionária em uma corda vibrante."
+  },
+  {
+    "objectID": "index.html#material-necessário",
+    "href": "index.html#material-necessário",
+    "title": "Velocidade de onda em uma corda vibrante",
+    "section": "Material Necessário",
+    "text": "Material Necessário\n\n\n\nFigura 2\n\n\n\n\nAparato experimental\n\n\n\n\nFonte: Labfis (2026)\n\n\n\n\n\nGerador de ondas senoidais (1);\nGerador de vibrações (2);\nFio trançado inelástico (3);\nPolia e haste (4);\nConjunto de massa e suporte (5);\nTrena, balança digital e acessórios."
+  },
+  {
+    "objectID": "index.html#referências",
+    "href": "index.html#referências",
+    "title": "Velocidade de onda em uma corda vibrante",
+    "section": "Referências",
+    "text": "Referências\n\n\nHALLIDAY, D.; RESNICK, R.; WALKER, J. Fundamentos de Física: Gravitação, Ondas e Termodinâmica. 10. ed. Rio de Janeiro: LTC, 2016. v. 2"
+  }
+]
