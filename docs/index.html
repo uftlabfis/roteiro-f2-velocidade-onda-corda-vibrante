@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Equipe técnica do Laboratório de Física">
+<meta name="author" content="Laboratório de Física">
 
-<title>Título do Roteiro</title>
+<title>Velocidade de onda em uma corda vibrante</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -135,13 +135,13 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <div class="quarto-other-links"><h2>Baixar Material</h2><ul><li><a href="titulo-do-roteiro.pdf" target="_blank"><i class="bi bi-file-earmark-pdf"></i>Roteiro do Experimento</a></li><li><a href="https://raw.githubusercontent.com/uftlabfis/uftlabfis-uftlabfis-roteiros/main/instrumentacao/papel-milimetrado-18x22.pdf" target="_blank"><i class="bi bi-file-earmark-pdf"></i>Papel milimetrado</a></li><li><a href="https://uftlabfis.pythonanywhere.com/file/02_mruv_v2020_01.pdf" target="_blank"><i class="bi bi-file-earmark-pdf"></i>Outro roteiro</a></li></ul></div></div>
+    <div class="quarto-other-links"><h2>Baixar Material</h2><ul><li><a href="velocidade-onda-corda-vibrante.pdf" target="_blank"><i class="bi bi-file-earmark-pdf"></i>Roteiro do Experimento</a></li><li><a href="https://raw.githubusercontent.com/uftlabfis/uftlabfis-uftlabfis-roteiros/main/instrumentacao/papel-milimetrado-18x22.pdf" target="_blank"><i class="bi bi-file-earmark-pdf"></i>Papel milimetrado</a></li></ul></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Título do Roteiro</h1>
+<h1 class="title">Velocidade de onda em uma corda vibrante</h1>
 </div>
 
 
@@ -150,7 +150,7 @@ window.Quarto = {
   <div class="quarto-title-meta-heading">Afiliação</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Equipe técnica do Laboratório de Física <a href="mailto:labfis.cup@uft.edu.br" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+    <p class="author">Laboratório de Física <a href="mailto:labfis.cup@uft.edu.br" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
@@ -165,7 +165,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Última atualização</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">28 de agosto de 2026</p>
+      <p class="date">2 de setembro de 2026</p>
     </div>
   </div>
   
@@ -179,50 +179,78 @@ window.Quarto = {
 
 <section id="introdução" class="level2">
 <h2 data-anchor-id="introdução">Introdução</h2>
-<p>Apresente brevemente os conceitos físicos relacionados à atividade, destacando os princípios e fenômenos que serão investigados. Contextualize o experimento e sua relevância para a compreensão do conteúdo, podendo incluir as principais equações ou relações teóricas necessárias à análise dos resultados. O parágrafo seguinte mostra um exemplo.</p>
-<p>Conforme <span class="citation" data-cites="Halliday1">Halliday; Resnick; Walker (<a href="#ref-Halliday1" role="doc-biblioref">2016</a>)</span>, <em>energia cinética</em> é a energia associada ao movimento de um corpo. Quando uma força resultante realiza trabalho sobre um corpo, sua velocidade pode ser alterada e, consequentemente, sua energia cinética também se modifica. Essa relação é expressa pelo teorema trabalho–energia cinética, segundo o qual o trabalho realizado pela força resultante sobre um corpo é igual à variação de sua energia cinética. Para um corpo de massa (<span class="math inline">\(m\)</span>) que se move com velocidade (<span class="math inline">\(v\)</span>), a energia cinética é dada por</p>
-<p><span class="math display">\[
-K = \dfrac{1}{2} m v^2
-\]</span></p>
-<p>Utilize imagens para complementar a explicação dos conceitos e procedimentos, priorizando esquemas, diagramas e fotografias que facilitem a compreensão do experimento. Toda imagem deve apresentar legenda e, quando necessário, identificar seus principais elementos. No texto, referencie a imagem utilizada.</p>
-<p>Por exemplo, a <a href="#fig-labfis-logo" class="quarto-xref">Figura&nbsp;1</a> mostra o logo do Laboratório de Física.</p>
-<div id="fig-labfis-logo" class="quarto-float quarto-figure quarto-figure-center">
+<p>Ondas estacionárias resultam da interferência de duas ondas progressivas idênticas (mesmo comprimento de onda, velocidade e amplitude) que se propagam em sentidos opostos no mesmo meio. Um exemplo comum de como essas condições são satisfeitas é em uma corda esticada: ondas geradas por uma fonte vibrante em uma extremidade são refletidas na outra extremidade, e essa onda refletida, viajando no sentido contrário, interfere com as ondas que ainda estão se aproximando, produzindo o padrão de onda estacionária <span class="citation" data-cites="Halliday2">(<a href="#ref-Halliday2" role="doc-biblioref">Halliday; Resnick; Walker, 2016</a>)</span>.</p>
+<p>Sob condições específicas, uma corda esticada e fixa em ambas as extremidades exibe <em>modos naturais de vibração</em> característicos, nos quais as extremidades devem ser sempre <em>nós</em> (pontos de amplitude zero). A corda pode vibrar em diferentes números de segmentos: no modo fundamental (um único segmento), o comprimento da corda (<span class="math inline">\(L\)</span>) é igual a metade do comprimento de onda (<span class="math inline">\(\lambda / 2\)</span>); no próximo modo (dois segmentos, com um nó central), <span class="math inline">\(L\)</span> é igual a <span class="math inline">\(\lambda\)</span>; e assim sucessivamente. De forma geral, o comprimento da corda deve sempre ser um múltiplo inteiro de meio comprimento de onda (<span class="math inline">\(L = n \lambda/2\)</span>, onde <span class="math inline">\(n = 1, 2, 3, \dots\)</span>), o que define os comprimentos de onda permitidos para as ondas estacionárias na corda. A <a href="#fig-modos-naturais" class="quarto-xref">Figura&nbsp;1</a> mostra os 3 primeiros modos naturais para uma corda vibrante de comprimento <span class="math inline">\(L\)</span>.</p>
+<div id="fig-modos-naturais" class="quarto-float quarto-figure quarto-figure-center">
 <figure class="quarto-float quarto-float-fig figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-labfis-logo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;1: Logo do Labfis
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-modos-naturais-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1
 </figcaption>
-<div aria-describedby="fig-labfis-logo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/labfis-logo-transparente.png" class="img-fluid figure-img" style="width:50.0%">
+<div aria-describedby="fig-modos-naturais-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption>Frequências naturais em uma corda vibrante</figcaption>
+<p><img src="assets/images/typst/modos-naturais.svg" class="img-fluid figure-img" style="width:55.0%"></p>
+</figure>
+</div>
+<div style="text-align: center; font-size: smaller">
+<p><strong>Fonte:</strong> Labfis (2026)</p>
+</div>
 </div>
 </figure>
 </div>
+<p>Para qualquer onda com comprimento de onda <span class="math inline">\(\lambda\)</span> e frequência <span class="math inline">\(f\)</span>, a velocidade de propagação da onda, <span class="math inline">\(v\)</span>, é dada por:</p>
+<p><span id="eq-vel-lambda-f"><span class="math display">\[
+  v = \lambda f
+\tag{1}\]</span></span></p>
+<p>Por outro lado, se a corda tem massa <span class="math inline">\(m\)</span> e comprimento total <span class="math inline">\(l\)</span> e está fujeita a uma força de tensão <span class="math inline">\(F\)</span>, a velocidade <span class="math inline">\(v\)</span> de propagação da onda também pode ser determinada pela relação:</p>
+<p><span id="eq-vel-tensao-mu"><span class="math display">\[
+  v = \sqrt{\dfrac{F}{\mu}}
+\tag{2}\]</span></span></p>
+<p>em que <span class="math inline">\(\mu = \dfrac{m}{l}\)</span> é a <em>massa específica linear</em> da corda.</p>
+<p>Neste experimento, ondas estacionárias são geradas em uma corda esticada,por meio de vibrações de um gerador de ondas senoidais acionado eletricamente. A disposição do aparelho é mostrada na <a href="#fig-kit-ondas" class="quarto-xref">Figura&nbsp;2</a>. A tensão na corda é igual ao peso das massa suspensa sobre a polia.</p>
 </section>
 <section id="objetivos" class="level2">
 <h2 data-anchor-id="objetivos">Objetivos</h2>
-<p>Apresente de forma clara e objetiva o que se pretende alcançar com a atividade experimental, utilizando verbos de ação como</p>
 <ol type="1">
-<li>Investigar</li>
-<li>Analisar</li>
-<li>Determinar</li>
-<li>Verificar</li>
-<li>Compreender</li>
+<li>Compreender a relação entre a frequência, o comprimento da corda, a tensão e os diferentes modos de vibração (harmônicos) das ondas estacionárias;</li>
+<li>Determinar a velocidade de propagação de uma onda estacionária em uma corda vibrante.</li>
 </ol>
 </section>
 <section id="material-necessário" class="level2">
-<h2 data-anchor-id="material-necessário">Material necessário</h2>
-<p>Liste todos os materiais, equipamentos e instrumentos que serão utilizados na atividade experimental, de forma organizada e objetiva.</p>
+<h2 data-anchor-id="material-necessário">Material Necessário</h2>
+<div id="fig-kit-ondas" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-kit-ondas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;2
+</figcaption>
+<div aria-describedby="fig-kit-ondas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption>Aparato experimental</figcaption>
+<p><img src="assets/images/equipamento-ondas-pasco.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<div style="text-align: center; font-size: smaller">
+<p><strong>Fonte:</strong> Labfis (2026)</p>
+</div>
+</div>
+</figure>
+</div>
 <ul>
-<li>Balança;</li>
-<li>Cronômetro;</li>
-<li>Paquímetro;</li>
-<li>Trilho de baixo atrito.</li>
+<li>Gerador de ondas senoidais (1);</li>
+<li>Gerador de vibrações (2);</li>
+<li>Fio trançado inelástico (3);</li>
+<li>Polia e haste (4);</li>
+<li>Conjunto de massa e suporte (5);</li>
+<li>Trena, balança digital e acessórios.</li>
 </ul>
 </section>
 <section id="referências" class="level2">
 <h2 data-anchor-id="referências">Referências</h2>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list">
-<div id="ref-Halliday1" class="csl-entry" role="listitem">
-HALLIDAY, D.; RESNICK, R.; WALKER, J. <strong>Fundamentos de Física: Mecânica</strong>. 10. ed. Rio de Janeiro: LTC, 2016. v. 1
+<div id="ref-Halliday2" class="csl-entry" role="listitem">
+HALLIDAY, D.; RESNICK, R.; WALKER, J. <strong>Fundamentos de Física: Gravitação, Ondas e Termodinâmica</strong>. 10. ed. Rio de Janeiro: LTC, 2016. v. 2
 </div>
 </div>
 
@@ -296,7 +324,7 @@ HALLIDAY, D.; RESNICK, R.; WALKER, J. <strong>Fundamentos de Física: Mecânica<
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/costandrad\.github\.io\/uftlabfis-roteiro-web-template\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
