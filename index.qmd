@@ -61,7 +61,7 @@ $$
   v = \lambda f
 $${#eq-vel-lambda-f}
 
-Por outro lado, se a corda tem massa $m$ e comprimento total $l$ e está fujeita a uma força de tensão $F$, a velocidade $v$ de propagação da onda também pode ser determinada pela relação:
+Por outro lado, se a corda tem massa $m$ e comprimento total $l$ e está sujeita a uma força de tensão $F$, a velocidade $v$ de propagação da onda também pode ser determinada pela relação:
 
 $$
   v = \sqrt{\dfrac{F}{\mu}}
@@ -69,7 +69,7 @@ $${#eq-vel-tensao-mu}
 
 em que $\mu = \dfrac{m}{l}$ é a _massa específica linear_ da corda.
 
-Neste experimento, ondas estacionárias são geradas em uma corda esticada,por meio de vibrações de um gerador de ondas senoidais acionado eletricamente. A disposição do aparelho é mostrada na @fig-kit-ondas. A tensão na corda é igual ao peso das massa suspensa sobre a polia.
+Neste experimento, ondas estacionárias são geradas em uma corda esticada,por meio de vibrações de um gerador de ondas senoidais acionado eletricamente. A disposição do aparelho é mostrada na @fig-kit-ondas. A tensão na corda é igual ao peso da massa suspensa sobre a polia.
 
 
 ## Objetivos
@@ -130,7 +130,7 @@ $
   v = lambda f
 $<eq-vel-lambda-f>
 
-Por outro lado, se a corda tem massa $m$ e comprimento total $l$ e está fujeita a uma força de tensão $F$, a velocidade $v$ de propagação da onda também pode ser determinada pela relação:
+Por outro lado, se a corda tem massa $m$ e comprimento total $l$ e está sujeita a uma força de tensão $F$, a velocidade $v$ de propagação da onda também pode ser determinada pela relação:
 
 $
   v = sqrt(F/mu)
@@ -140,7 +140,7 @@ $<eq-vel-tensao-mu>
   em que $mu = display(m/l)$ é a _massa específica linear_ da corda.
 ]
 
-Neste experimento, ondas estacionárias são geradas em uma corda esticada,por meio de vibrações de um gerador de ondas senoidais acionado eletricamente. A disposição do aparelho é mostrada na @fig-kit-ondas. A tensão na corda é igual ao peso das massa suspensa sobre a polia.
+Neste experimento, ondas estacionárias são geradas em uma corda esticada,por meio de vibrações de um gerador de ondas senoidais acionado eletricamente. A disposição do aparelho é mostrada na @fig-kit-ondas. A tensão na corda é igual ao peso da massa suspensa sobre a polia.
 
 
 = Objetivos
@@ -164,21 +164,18 @@ Neste experimento, ondas estacionárias são geradas em uma corda esticada,por m
 - Conjunto de massa e suporte (5);
 - Trena, balança digital e acessórios.
 
-
-#v(2cm)
-
-= Procedimentos
-
 //#info-box([Atenção], [Conteúdo])
 
 
+
+= Procedimentos
 
 
 == Primeira Parte: Velocidade de onda na corda vibrante
 
 #figure(
   kind: table,
-  caption: [Coleta de dados da segunta parte],
+  caption: [Coleta de dados da primeira parte],
 )[
   #table(
     columns: (1fr, 1fr, 1fr),
@@ -187,12 +184,18 @@ Neste experimento, ondas estacionárias são geradas em uma corda esticada,por m
   )
 ]<tbl-dados-2>
 
+
+
 + Prenda uma extremidade da corda à haste metálica do gerador de vibrações;
 + Na outra extremidade da corda, prenda o suporte com a massa externa $M$ , passando essa extremidade pela polia, conforme mostrado na @fig-kit-ondas.
 + Com a trena, meça a distância $L$ entre o orifício da haste metálica do gerador de vibrações e a polia. Esse valor correspondará ao comprimento de onda $lambda$ a ser anotado na @tbl-dados-2.
-+ Ligue o gerador de ondas senoidais e ajuste a frequência $f$ de tal modo que o padrão de ondas estacionárias corresponda a 1 (um) comprimento de onda $lambda$. Note que nessa configuração, $lambda = L$.
++ Ligue o gerador de ondas senoidais e ajuste a frequência $f$ de tal modo que o padrão de ondas estacionárias corresponda a 1 (um) comprimento de onda $lambda$ (ver @fig-modos-naturais). Note que nessa configuração, $lambda = L$. Anote o valor de $f$ na @tbl-dados-2.
+ 
++ Utilize a @eq-vel-lambda-f para calcular a velocidade de onda observada ($v_("obs")$).
 
 #info-box([Atenção], [
+
+  #text(size: 9pt)[O *gerador de ondas senoidais* possui pré-ajuste de 1 Hz e ajuste fino de 0,1 Hz para frequência, mostrada no _display_, e controle de amplitude, conforme ilustrado na imagem abaixo.]
 
   #figure(
     cetz.canvas({
@@ -214,17 +217,14 @@ Neste experimento, ondas estacionárias são geradas em uma corda esticada,por m
       ])
     })
   )
-
 ])
-
-+ Utilize a @eq-vel-lambda-f para calcular a velocidade de onda observada ($v_("obs")$).
 
 
 == Segunda Parte: Velocidade de onda em função da tensão $F$ e da massa específica $mu$
 
 #figure(
   kind: table,
-  caption: [Coleta de dados da primeira parte],
+  caption: [Coleta de dados da segunda parte],
 )[
   #table(
     columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
