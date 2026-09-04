@@ -123,9 +123,9 @@
       line(length: 100%, stroke: 0.5pt + primary-color)
       
       if calc.odd(current-page) {
-        align(right)[#link(url)[#url]]
+        align(right)[#link(url)[#url.replace("\\/", "/")]]
       } else {
-        align(left)[#link(url)[#url]]
+        align(left)[#link(url)[#url.replace("\\/", "/")]]
       }
     }
   )
